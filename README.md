@@ -9,3 +9,4 @@ The web app consists of a 2 page front end, built with HMTL, CSS, Bootstrap, Jav
 
 Challenges we ran into
 Setting up the scrappy environment was our first biggest challenge. Establishing a conncection between the front end and backend also became a challenge towards the end of development.The main issue was processing the scraped data produced by the scrappy spider, for display to the front end. Additionally, scalability could also be an issue because all the scraped data is stored locally at this point. Future models will take advantage of amazonweb services.
+
