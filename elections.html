@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> Virtual Scrapper </title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+
+		<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+
+        <script type='text/javascript'> 
+            
+            $(document).ready( function() {
+                $(window).scroll(
+                                
+                        function() {
+                             if($(window).scrollTop() + $(window).height() == $(document).height())
+                             {
+                                var urls = ["https://goo.gl/6jwsMM","",""]
+                                var img_urls = ["https://static01.nyt.com/images/2016/08/25/us/elections/senate-polls-1472168349809/senate-polls-1472168349809-facebookJumbo.jpg","",""]
+
+                                $("#album tbody").append(
+                                    '<tr> <td> <a href="#x"> <img id="hoverable" src="logo.png" alt="Image" class="img-responsive"> <span class="text-content"> <span>https://goo.gl/6jwsMM/</span></span> </a> </td><td> <a href="#x"> <img id="hoverable" src="logo.png" alt="Image" class="img-responsive"> <span class="text-content"> <span>https://www.facebook.com/</span></span> </a> </td><td> <a href="#x"> <img id="hoverable" src="logo.png" alt="Image" class="img-responsive"> <span class="text-content"> <span>https://www.facebook.com/</span></span> </a> </td>     </tr>');
+                             }
+                        } 
+                );
+            }
+        );
+        </script>
+        <script type='text/javascript'> 
+
+
+        </script
+	</head>
+
+<body>
+	<nav class="navbar navbar-default">
+ 		<div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" rel="home" href="#" title="Buy Sell Rent Everyting">
+                <img style="max-width:92px; margin-top: -16px; margin-left:-16px;"
+                    src="logo.png">
+                 </a>
+            </div>
+   			<div class="col-sm-3 col-md-3 navbar-left">
+        		<form class="navbar-form" role="search">
+        			<div class="input-group">
+            			<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+            			<div class="input-group-btn">
+                			<button class="btn btn-default" type="submit">
+                				<i class="glyphicon glyphicon-search"></i>
+                			</button>
+            			</div>
+        			</div>
+        		</form>
+        	</div>
+            <a href = "about.html" type="button" class="btn btn-default navbar-btn pull-right" >About</a></button>
+  		</div>
+	</nav>
+    <div id="status">  
+        <table id="album" border="0">
+        <tbody>
+        <tr>
+            <td> <a href="http://michaelagar.co.uk/wp-content/uploads/2012/08/MidTerms.png"> <img id="hoverable" src= "http://michaelagar.co.uk/wp-content/uploads/2012/08/MidTerms.png" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://michaelagar.co.uk/wp-content/uploads/2012/08/MidTerms.png</span></span> </a>  
+            </td>
+            <td> <a href="http://www.slow-journalism.com/sj-site/wp-content/uploads/2013/04/Sneer-campaign.jpg"> <img id="hoverable" src="http://www.slow-journalism.com/sj-site/wp-content/uploads/2013/04/Sneer-campaign.jpg" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://www.slow-journalism.com/sj-site/wp-content/uploads/2013/04/Sneer-campaign.jpg</span></span> </a>  
+            </td>
+            <td> <a href="http://moderndata.plot.ly/wp-content/uploads/2016/01/sentiment-analysis.png"> <img id="hoverable" src="http://moderndata.plot.ly/wp-content/uploads/2016/01/sentiment-analysis.png" alt="Image" class="img-responsive">
+                    <span class="text-content"> <span>http://moderndata.plot.ly/wp-content/uploads/2016/01/sentiment-analysis.png</span> </span> </a>  
+            </td>
+        </tr>
+		<br>
+        <tr>
+            <td> <a href="http://cdn.static-economist.com/sites/default/files/imagecache/original-size/images/2016/03/blogs/graphic-detail/20160312_wom990_0.png"> <img id="hoverable" src="http://cdn.static-economist.com/sites/default/files/imagecache/original-size/images/2016/03/blogs/graphic-detail/20160312_wom990_0.png" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://cdn.static-economist.com/sites/default/files/imagecache/original-size/images/2016/03/blogs/graphic-detail/20160312_wom990_0.png</span></span> </a>  
+            </td>
+            <td> <a href="https://metrouk2.files.wordpress.com/2012/08/uselections.png"> <img id="hoverable" src="https://metrouk2.files.wordpress.com/2012/08/uselections.png" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>https://metrouk2.files.wordpress.com/2012/08/uselections.png</span></span> </a>  
+            </td>
+            <td> <a href="http://www.graphs.net/wp-content/uploads/2012/10/Whos-paying.jpg"> <img id="hoverable" src="http://www.graphs.net/wp-content/uploads/2012/10/Whos-paying.jpg" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://www.graphs.net/wp-content/uploads/2012/10/Whos-paying.jpg</span></span> </a>  
+            </td>
+        </tr>
+		<br>
+        <tr>
+            <td> <a href="http://farm9.staticflickr.com/8484/8166398864_2485a0b6dc.jpg"> <img id="hoverable" src="http://farm9.staticflickr.com/8484/8166398864_2485a0b6dc.jpg" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://farm9.staticflickr.com/8484/8166398864_2485a0b6dc.jpg</span></span> </a>  
+            </td>
+            <td> <a href="https://static01.nyt.com/images/2016/01/20/us/elections/iowa-new-hampshire-presidential-election-polls-clinton-trump-sanders-cruz-1453332796913/iowa-new-hampshire-presidential-election-polls-clinton-trump-sanders-cruz-1453332796913-articleLarge-v5.png"> <img id="hoverable" src="https://static01.nyt.com/images/2016/01/20/us/elections/iowa-new-hampshire-presidential-election-polls-clinton-trump-sanders-cruz-1453332796913/iowa-new-hampshire-presidential-election-polls-clinton-trump-sanders-cruz-1453332796913-articleLarge-v5.png" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>https://static01.nyt.com/images/2016/01/20/us/elections/iowa-new-hampshire-presidential-election-polls-clinton-trump-sanders-cruz-1453332796913/iowa-new-hampshire-presidential-election-polls-clinton-trump-sanders-cruz-1453332796913-articleLarge-v5.png</span></span> </a>  
+            </td>
+            <td> <a href="http://www.geocurrents.info/wp-content/uploads/2014/11/2012-US-Exception-Election-Map.png"> <img id="hoverable" src="http://www.geocurrents.info/wp-content/uploads/2014/11/2012-US-Exception-Election-Map.png" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://www.geocurrents.info/wp-content/uploads/2014/11/2012-US-Exception-Election-Map.png</span></span> </a>  
+            </td>
+        </tr>
+		<br>
+		<tr>
+		    <td> <a href="http://infographic.statista.com/normal/chartoftheday_4335_which_candidates_are_us_muslims_supporting_n.jpg"> <img id="hoverable" src="http://infographic.statista.com/normal/chartoftheday_4335_which_candidates_are_us_muslims_supporting_n.jpg" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://infographic.statista.com/normal/chartoftheday_4335_which_candidates_are_us_muslims_supporting_n.jpg</span></span> </a>  
+            </td>
+            <td> <a href="http://russiancouncil.ru/common/upload/US-Run2016-Eng.png"> <img id="hoverable" src="http://russiancouncil.ru/common/upload/US-Run2016-Eng.png" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://russiancouncil.ru/common/upload/US-Run2016-Eng.png</span></span> </a>  
+            </td>
+			
+            <td> <a href="http://freespeechdebate.com/wp-content/uploads/2012/10/women-in-media-infographic-final.jpeg"> <img id="hoverable" src="http://freespeechdebate.com/wp-content/uploads/2012/10/women-in-media-infographic-final.jpeg" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://freespeechdebate.com/wp-content/uploads/2012/10/women-in-media-infographic-final.jpeg</span></span> </a>  
+            </td>
+        </tr>
+		<br>
+		<tr>
+		    <td> <a href="https://www.studentnewsdaily.com/wp-content/uploads/2015/08/2016-presidential-candidates.png"> <img id="hoverable" src="https://www.studentnewsdaily.com/wp-content/uploads/2015/08/2016-presidential-candidates.png" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>https://www.studentnewsdaily.com/wp-content/uploads/2015/08/2016-presidential-candidates.png</span></span> </a>  
+            </td>
+            <td> <a href="http://socialnetworking.procon.org/files/1-social-networking-images/social_networking_2012_election_social_media_rankings_image.jpg"> <img id="hoverable" src="http://socialnetworking.procon.org/files/1-social-networking-images/social_networking_2012_election_social_media_rankings_image.jpg" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://socialnetworking.procon.org/files/1-social-networking-images/social_networking_2012_election_social_media_rankings_image.jpg</span></span> </a>  
+            </td>
+			
+            <td> <a href="http://1.bp.blogspot.com/-dAk_eyP_4iw/UKQ1eSCjwkI/AAAAAAAADmM/KP7Cbu2Sllk/s1600/United+States+Presidential+Race+by+County_Margins+over+20+Percent.PNG"> <img id="hoverable" src="http://1.bp.blogspot.com/-dAk_eyP_4iw/UKQ1eSCjwkI/AAAAAAAADmM/KP7Cbu2Sllk/s1600/United+States+Presidential+Race+by+County_Margins+over+20+Percent.PNG" alt="Image" class="img-responsive">
+                    <span class="text-content"><span>http://1.bp.blogspot.com/-dAk_eyP_4iw/UKQ1eSCjwkI/AAAAAAAADmM/KP7Cbu2Sllk/s1600/United+States+Presidential+Race+by+County_Margins+over+20+Percent.PNG</span></span> </a>  
+            </td>
+        </tr>
+        </table>
+        </tbody>
+    </div>
+	
+</body>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

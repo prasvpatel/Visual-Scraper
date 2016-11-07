@@ -1,0 +1,36 @@
+.brand { 
+    max-height: 70px;
+    max-width: 50%; 
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+
+table#album
+{
+    border-collapse:separate;
+    border-spacing:10px 5px;
+}
+
+#hoverable {
+	display: inline-block;
+  	margin: 0 1em 1em 0;
+  	position: relative;
+
+
+}
+#hoverable:hover span.text-content{
+	opacity:  1;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
